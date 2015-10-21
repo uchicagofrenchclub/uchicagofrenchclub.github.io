@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title lang="en-us">UChicago French Club</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css"  href="css/style.css">
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic' rel='stylesheet' type='text/css'>    </head>
+    <body>
+        <!-- Navigation -->
+        <nav id="section-menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#section-about" class="page-scroll">
+                            <span lang="en-us">About</span>
+                            <span lang="fr">À propos</span>
+                        </a></li>
+                        <li><a href="#section-events" class="page-scroll">
+                            <span lang="en-us">Events</span>
+                            <span lang="fr">Événements</span>
+                        </a></li>
+                        <li><a href="#section-involved" class="page-scroll">
+                            <span lang="en-us">Get Involved</span>
+                            <span lang="fr">Nous rejoindre</span>
+                        </a></li>
+                        <li><a href="#section-board" class="page-scroll">
+                            <span lang="en-us">Board</span>
+                            <span lang="fr">Notre Équipe</span>
+                        </a></li>
+                        <li><a href="#section-gallery" class="page-scroll">Photos</a></li>
+                        <li>
+                            <div class="language-icons">
+                                <img src="img/english.png" lang="fr" class="flag" onclick="loadEnglish()">
+                                <img src="img/french.png" lang="en-us" class="flag" onclick="loadFrench()">
+                            </div>
+                        </div></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script>
+        function loadFrench() {
+        $(':lang(en)').hide();
+        $(':lang(fr)').show();
+        };
+        function loadEnglish() {
+        $(':lang(en)').show();
+        $(':lang(fr)').hide();
+        };
+        </script>
+        <!-- Home Page
+        ==========================================-->
+        <div id="section-home" class="text-center">
+            <div class="overlay">
+                <div class="header-text">
+                    <h1 lang="en-us"><span id="uchicago">The University of Chicago</span><br><span id="frenchClub">French Club</span></h1>
+                    <h1 lang="fr" id="frenchHeader"><span id="frenchHeader1">Le Club Français</span><br><span id="frenchHeader2">de l'université de Chicago</span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- About Us Page -->
+        <div id="section-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div id="image"><img src="img/board.png" class="img-responsive img-rounded" ></div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="about-text">
+                            <div class="section-title">
+                                <h2 lang="en-us"><strong>About</strong> Us </h2>
+                                <h2 lang="fr"><strong>À propos</strong> de nous</h2>
+                                <hr>
+                                <br><br>
+                            </div>
+                            <p class="intro" lang="en-us">
+                                The French Club is a Recognized Student Organization at the University of Chicago designed to bring together francophiles and francophones, as well as promote French language and culture. The club aims to serve as a forum for students from French-speaking nations in addition to spreading some joie de vivre to campus as a whole. We welcome French speakers of all levels and dialects, and our events accommodate your various French cultural and culinary interests, from French film screenings to cheese tastings.
+                            </p>
+                            <p class="intro" lang="fr">
+                                ​Le Club Français est une Organisation Étudiante Reconnue de l’Université de Chicago, dont le but est de permettre aux étudiants francophones de se retrouver et discuter, inviter les étudiants francophiles à découvrir et prendre part à la culture française et francophone, ainsi que rassembler francophones et francophiles pour échanger sur les différences et similarités entre les deux cultures. Cette année, nous proposerons de nombreux évènements adaptés aux différents niveaux de langue, ainsi que de conférences, débats et soirées accessibles à tous les curieux des questions franco-américaines. ​
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div id="section-about">
+            <div class="container">
+                <div class="section-title center text-center">
+                    <h2 lang="en-us"><strong>About</strong> Us </h2>
+                    <h2 lang="fr"><strong>À propos</strong> de nous</h2>
+                    <div class="line">
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        <div class="about-text">
+                            
+                            <p class="intro" lang="en-us">
+                                The French Club is a Recognized Student Organization at the University of Chicago designed to bring together francophiles and francophones, as well as promote French language and culture. The club aims to serve as a forum for students from French-speaking nations in addition to spreading some joie de vivre to campus as a whole. We welcome French speakers of all levels and dialects, and our events accommodate your various French cultural and culinary interests, from French film screenings to cheese tastings.
+                            </p>
+                            <p class="intro" lang="fr">
+                                ​Le Club Français est une Organisation Étudiante Reconnue de l’Université de Chicago, dont le but est de permettre aux étudiants francophones de se retrouver et discuter, inviter les étudiants francophiles à découvrir et prendre part à la culture française et francophone, ainsi que rassembler francophones et francophiles pour échanger sur les différences et similarités entre les deux cultures. Cette année, nous proposerons de nombreux évènements adaptés aux différents niveaux de langue, ainsi que de conférences, débats et soirées accessibles à tous les curieux des questions franco-américaines. ​
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- events Section -->
+        <div id="section-events" class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2 lang="en-us">Upcoming <strong>Events</strong></h2>
+                        <h2 lang="fr"><strong>Événements</strong> à venir</h2>
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div id="events">
+
+                    <p>Join the members of French Club for French conversation and delicious snacks <b>this Friday in the South Lounge of the Reynolds Club, 6:00-7:00</b>! Students with any level of French are encouraged to come chat in French and unwind at the end of the week.</p>
+
+                    <hr style="width:200px">
+
+                    <p>Celebrated French economist <b>Thomas Piketty</b> will be coming to the University of Chicago campus on <b>Friday, November 6</b>! This will be an incredible opportunity to hear from the winner of the 2002 Prix du Meilleur Jeune Économiste (Prize for the Best Young Economist) and the Yrjö Johnsson Award.</p>
+                       <!--  
+                        <p><strong>"Making Economics Eco-Friendly: A Conversation on Sustainable Growth."</strong></p>
+                        
+                        <p>The upcoming 2015 United Nations Climate Change Conference in Paris has prompted a variety of conversations on the need to change sustainability conventions. Join French Club and acclaimed French documentary-maker <strong>Marie-Monique Robin</strong> in an exceptional appearance in the United States as she discusses balancing economic success with a more ecologically conscious world in light of her most recent film, Sacred Growth, which will be shown at the United Nations on April 15th, 2015. Audience Q&A to follow.</p>
+                        
+                        <p>This event is <strong>free and open to the public</strong>. Seating will operate on a first-come, first-serve basis. Doors open at 6PM.</p>
+                        
+                        <p><b style="color:#D1081D">WHEN</b><br>Thursday, April 16th, 6:30PM - 8:00PM<p>
+                            
+                            <p><b style="color:#D1081D">WHERE</b><br>International House Assembly Hall, 1414 E 59th Street, Chicago, IL 60637</p>
+                             -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Get Involved Section -->
+            <div id="section-involved" class="text-center">
+                <div class="container">
+                    <div class="section-title center">
+                        <h2 lang="en-us">Ways to <strong>Get Involved</strong></h2>
+                        <h2 lang="fr">Comment <strong>Nous Rejoindre</strong></h2>
+                        <div class="line">
+                        </div>
+                        <small><em lang="en-us">​The University of Chicago French Club invites you to participate in various ways:</em></small>
+                        <small><em lang="fr">​Le Club Français vous invite à participer de plusieurs façons:</em></small>
+                    </div>
+                    <div class="space"></div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="https://www.facebook.com/universityofchicagofrenchclub"><i class="fa fa-facebook"></i>
+                            <h4><strong>Facebook</strong></h4></a>
+                            <p lang="en-us">Like our page to receive notifications on French Club activities and French cultural links.</p>
+                            <p lang="fr">Aimer notre page pour recevoir des notifications sur nos activités et notre sélection d'évènements culturels français à Chicago.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="https://lists.uchicago.edu/web/info/frenchclub"><i class="fa fa-envelope"></i>
+                                <h4 lang="en-us"><strong>Listhost</strong></h4>
+                            <h4 lang="fr"><strong>Mailing-list</strong></h4></a>
+                            <p lang="en-us">Add your name to the French Club listhost in order to receive emails on French Club and French Department events.</p>
+                            <p lang="fr">Ajouter votre nom à la mailing-list du Club Francais pour vous tenir au courant de nos évènements et réunions.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a id="ServerSort" href="javascript:void(0)" style="cursor:default"><i class="fa fa-cutlery"></i>
+                                <h4 lang="en-us"><strong>Weekly Meetings</strong></h4>
+                            <h4 lang="fr"><strong>Rencontres hebdomadaires</strong></h4></a>
+                            <p lang="en-us">The French Club meets every Friday in the South Lounge of the Reynolds Club, 6:00-7:00 PM!  Come meet other club members over baguette and cheese.</p>
+                            <p lang="fr">Le Club Français se réunit toutes les semaines pour des discussions conviviales tous niveaux en français. Pain et fromage fournis !</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a id="ServerSort" href="javascript:void(0)" style="cursor:default"><i class="fa fa-users"></i>
+                                <h4 lang="en-us"><strong>Board</strong></h4>
+                            <h4 lang="fr"><strong>Notre équipe</strong></h4></a>
+                            <p lang="en-us">We are always looking for new club members interested in some of the club's leadership roles. Look for our applications at the beginning of each academic year.</p>
+                            <p lang="fr">Nous sommes toujours en quête de membres motivés qui veulent partager et faire vivre leurs suggestions, rencontrer nos conférenciers et prendre part à la gestion du Club.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- Board Page -->
+            <div id="section-board" class="text-center">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="section-title center">
+                            <h2 lang="en-us">Our 2015-16 <strong>board</strong></h2>
+                            <h2 lang="fr"><strong>Notre équipe</strong> 2015-16</h2>
+                            <div class="line">
+                            </div>
+                        </div>
+                        <ul class="row">
+                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Emily Driscoll</h3>
+                                    <p class="position" lang="en-us">President</p>
+                                    <p class="position" lang="fr">Présidente</p>
+                                    <p class="email"> edriscoll@uchicago.edu​</p>
+                                </div>
+                            </li>
+                            <li class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Tiphaine Kugener</h3>
+                                    <p class="position" lang="en-us">VP & Speaker Series Chair</p>
+                                    <p class="position" lang="fr">VP & Directrice de la Série d'Intervenants</p>
+                                    <p class="email">tkugener@uchicago.edu</p>
+                                </div>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Cécile Bourbonnais</h3>
+                                    <p class="position" lang="en-us">Treasurer</p>
+                                    <p class="position" lang="fr">Trésorière</p>
+                                    <p class="email">cecilebourbonnais@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Cyril Ekierman </h3>
+                                    <p class="position" lang="en-us">Francophone Community Liaison</p>
+                                    <p class="position" lang="fr">Directeur de Communauté Francophone</p>
+                                    <p class="email">cvekierman@uchicago.edu</p>
+                                </div>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Delana Tavakol </h3>
+                                    <p class="position" lang="en-us">Francophone Community Liaison</p>
+                                    <p class="position" lang="fr">Directrice de Communauté Francophone</p>
+                                    <p class="email">dtavakol@uchicago.edu</p>
+                                </div>
+                            </li>
+                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="board-member">
+                                    <h3>Capucine-Jacob Chavagnac</h3>
+                                    <p class="position" lang="en-us">Francophile Community Liaison</p>
+                                    <p class="position" lang="fr">Directrice de Communauté Francophile</p>
+                                    <p class="email">capucine.chavagnac@gmail.com </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Photos Section -->
+            <div id="section-gallery">
+                <div class="container"> <!-- Container -->
+                <div class="section-title text-center center">
+                    <h2 lang="en-us"><strong>Photos</strong> from past events</h2>
+                    <h2 lang="fr"><strong>Photos</strong> d'événements passés</h2>
+                    <div class="line">
+                    </div>
+                    <small><em lang="en-us"> Click on an album to see pictures from our many events.</em></small>
+                    <small><em lang="fr">  Cliquez sur un album pour voir des photos de nos nombreux événements. </em></small>
+                </div>
+                <ul class="row">
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/zineb.png" data-toggle="modal" data-target="#zinebGallery">
+                        <div class="event-description">Who is Charlie? </div>
+                        <div class="event-year" lang="en-us">Winter 2015</div>
+                        <div class="event-year" lang="fr">Hiver 2015</div>
+
+                    </li>
+                    <li class="col-xs-6  col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/ddv.png" data-toggle="modal" data-target="#ddvGallery">
+                        <div class="event-description">The Art of Intervention</div>
+                        <div class="event-year" lang="en-us">Autumn 2014</div>
+                        <div class="event-year" lang="fr">Automne 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/gamenight.png" data-toggle="modal" data-target="#consulgeneral2014">
+                        <div class="event-description">Meeting the Consul General</div>
+                        <div class="event-year" lang="en-us">Fall 2014</div>
+                        <div class="event-year" lang="fr">Automne 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/chanel.png" data-toggle="modal" data-target="#chanelGallery">
+                        <div class="event-description">Chanel & Schiaparelli</div>
+                        <div class="event-year" lang="en-us">Spring 2014</div>
+                        <div class="event-year" lang="fr">Printemps 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/belgian.png" data-toggle="modal" data-target="#belgianGallery">
+                        <div class="event-description">Belgian Cultural Night</div>
+                        <div class="event-year" lang="en-us">Winter 2014</div>
+                        <div class="event-year" lang="fr">Hiver 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/francoarabe.png" data-toggle="modal" data-target="#francoarabeGallery">
+                        <div class="event-description">La chose Franco-Arabe</div>
+                        <div class="event-year" lang="en-us">Winter 2014</div>
+                        <div class="event-year" lang="fr">Hiver 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/pastry.png" data-toggle="modal" data-target="#pastryschoolGallery">
+                        <div class="event-description">French Pastry School Visits</div>
+                        <div class="event-year" lang="en-us">Winter 2014</div>
+                        <div class="event-year" lang="fr">Hiver 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/lefebvre.png" data-toggle="modal" data-target="#lefebvre2013">
+                        <div class="event-description">Why are French Leaving France?</div>
+                        <div class="event-year" lang="en-us">Fall 2014</div>
+                        <div class="event-year" lang="fr">Automne 2014</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/burqaban.png" data-toggle="modal" data-target="#burqaban2013">
+                        <div class="event-description" >The Burqa Ban in France</div>
+                        <div class="event-year" lang="en-us">Spring 2013</div>
+                        <div class="event-year" lang="fr">Printemps 2013</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/cheese2013.png" data-toggle="modal" data-target="#cheese2013Gallery">
+                        <div class="event-description">Cheese Tasting</div>
+                        <div class="event-year" lang="en-us">Spring 2013</div>
+                        <div class="event-year" lang="fr">Printemps 2013</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/crepes2013.png" data-toggle="modal" data-target="#crepes2013">
+                        <div class="event-description">Crêpe Study Break</div>
+                        <div class="event-year" lang="en-us">Winter 2013</div>
+                        <div class="event-year" lang="fr">Hiver 2013</div>
+                    </li>
+                    <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img class="img-responsive" src="img/gallery/thumbnails/speedchatting2013.png" data-toggle="modal" data-target="#speedchatting2013Gallery">
+                        <div class="event-description">Speedchatting</div>
+                        <div class="event-year" lang="en-us">Winter 2013</div>
+                        <div class="event-year" lang="fr">Hiver 2013</div>
+                    </li> 
+                </ul>
+                
+            </div><br>
+        </div>
+    </div>
+    <nav id="footer">
+        <div class="container">
+            <div class="row">5706 S. University Avenue, Chicago, IL 60637
+                <div class="pull-right fnav">
+                    <ul class="footer-social">
+<!--                     	<li><form action="mailto:cecilebourbonnais@gmail.com" method="post"><input type="text" class="form-control" id="email"></form></li>
+ -->                        <li><a href="https://www.facebook.com/universityofchicagofrenchclub"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://lists.uchicago.edu/web/info/frenchclub"><i class="fa fa-envelope" ></i></a></li>
+                        <li><a href="https://blueprint.uchicago.edu/organization/frenchclub"><i class="fa fa-bold"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- GALLERY MODALS -->
+    <!-- Zineb Modal !-->
+    
+    <div class="modal fade" id="zinebGallery" tabindex="-1" role="dialog" aria-labelledby="zinebGallery" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Who is Charlie?: A conversation with Zineb El Rhazoui </h4>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel-zineb" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-zineb" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="1"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="2"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="3"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="4"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="5"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="6"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="7"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="8"></li>
+                            <li data-target="#carousel-zineb" data-slide-to="9"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/gallery/zineb2015/1.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/2.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/3.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/4.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/5.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/6.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/7.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/8.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/9.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="img/gallery/zineb2015/10.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-zineb" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-zineb" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DDV Modal !-->
+<div class="modal fade" id="ddvGallery" tabindex="-1" role="dialog" aria-labelledby="ddvGallery" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">The Art of Intervention: Diplomacy and Deployment after Iraq</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-ddv" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-ddv" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="1"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="2"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="3"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="4"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="5"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="6"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="7"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="8"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="9"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="10"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="11"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="12"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="13"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="14"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="15"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="16"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="17"></li>
+                        <li data-target="#carousel-ddv" data-slide-to="18"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/ddv2014/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/10.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/14.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/15.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/16.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/17.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/18.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/ddv2014/19.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-ddv" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-ddv" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DDV Modal !-->
+<div class="modal fade" id="chanelGallery" tabindex="-1" role="dialog" aria-labelledby="chanelGallery" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Chanel & Schiaparelli: A French Fashion Soirée</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-chanel" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-chanel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="1"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="2"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="3"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="4"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="5"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="6"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="7"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="8"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="9"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="10"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="11"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="12"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="13"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="14"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="15"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="16"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="17"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="18"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="19"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="20"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="21"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="22"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="23"></li>
+                        <li data-target="#carousel-chanel" data-slide-to="24"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/chanel2014/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/10.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/14.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/15.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/16.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/17.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/18.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/19.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/20.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/21.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/22.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/23.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/24.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/chanel2014/25.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-chanel" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-chanel" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DDV Modal !-->
+<div class="modal fade" id="belgianGallery" tabindex="-1" role="dialog" aria-labelledby="belgianGallery" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Belgian Cultural Night</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-belgian" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-belgian" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-belgian" data-slide-to="1"></li>
+                        <li data-target="#carousel-belgian" data-slide-to="2"></li>
+                        <li data-target="#carousel-belgian" data-slide-to="3"></li>
+                        <li data-target="#carousel-belgian" data-slide-to="4"></li>
+                        <li data-target="#carousel-belgian" data-slide-to="5"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/belgian2014/1.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/belgian2014/2.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/belgian2014/3.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/belgian2014/4.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/belgian2014/5.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/belgian2014/6.jpeg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-belgian" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-belgian" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DDV Modal !-->
+<div class="modal fade" id="francoarabeGallery" tabindex="-1" role="dialog" aria-labelledby="francoarabeGallery" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">La chose Franco-Arabe</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-francoArabe" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-francoArabe" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="1"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="2"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="3"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="4"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="5"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="6"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="7"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="8"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="9"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="10"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="11"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="12"></li>
+                        <li data-target="#carousel-francoArabe" data-slide-to="13"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/francoarabe2014/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/10.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/francoarabe2014/14.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-francoArabe" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-francoArabe" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pastry School Modal !-->
+<div class="modal fade" id="pastryschoolGallery" tabindex="-1" role="dialog" aria-labelledby="pastryschoolGallery" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">French Pastry School Visits</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-pastryschool" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-pastryschool" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="1"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="2"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="3"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="4"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="5"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="6"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="7"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="8"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="9"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="10"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="11"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="12"></li>
+                        <li data-target="#carousel-pastryschool" data-slide-to="13"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/pastryschool2014/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/10.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/pastryschool2014/14.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-pastryschool" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-pastryschool" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Speedchatting Modal !-->
+<div class="modal fade" id="speedchatting2013Gallery" tabindex="-1" role="dialog" aria-labelledby="speedchatting2013Gallery" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Speedchatting</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-speedchatting" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="1"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="2"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="3"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="4"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="5"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="6"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="7"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="8"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="9"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="10"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="11"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="12"></li>
+                        <li data-target="#carousel-speedchatting2013" data-slide-to="13"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/speedchatting2013/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/10.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/speedchatting2013/14.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-speedchatting" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-speedchatting" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Burqa Ban Modal !-->
+<div class="modal fade" id="lefebvre2013" tabindex="-1" role="dialog" aria-labelledby="lefebvre2013" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Fréderic Lefebvre: Why are the French Leaving France?</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-lefebvre2013" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="1"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="2"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="3"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="4"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="5"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="6"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="7"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="8"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="9"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="10"></li>
+                        <li data-target="#carousel-lefebvre2013" data-slide-to="11"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/lefebvre2013/1.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/2.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/3.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/4.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/5.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/6.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/7.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/8.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/9.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/10.jpeg" alt="" />
+                        </div>
+                           <div class="item">
+                            <img src="img/gallery/lefebvre2013/11.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/lefebvre2013/12.jpeg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-lefebvre2013" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-lefebvre2013" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+<!-- Burqa Ban Modal !-->
+<div class="modal fade" id="burqaban2013" tabindex="-1" role="dialog" aria-labelledby="burqaban2013" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">The Burqa Ban in France</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-burqaban2013" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-burqaban2013" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="1"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="2"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="3"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="4"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="5"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="6"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="7"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="8"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="9"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="10"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="11"></li>
+                        <li data-target="#carousel-burqaban2013" data-slide-to="12"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/burqaban2013/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/10.jpg" alt="" />
+                        </div>
+                           <div class="item">
+                            <img src="img/gallery/burqaban2013/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/burqaban2013/13.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-burqaban2013" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-burqaban2013" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cheese Modal !-->
+<div class="modal fade" id="cheese2013Gallery" tabindex="-1" role="dialog" aria-labelledby="cheese2013Gallery" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Cheese Tasting</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-cheese2013" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-cheese2013" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="1"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="2"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="3"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="4"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="5"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="6"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="7"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="8"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="9"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/cheese2013/1.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/2.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/3.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/4.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/5.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/6.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/7.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/8.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/9.jpeg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/cheese2013/10.jpeg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-cheese2013" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-cheese2013" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Crepe Modal !-->
+<div class="modal fade" id="crepes2013" tabindex="-1" role="dialog" aria-labelledby="crepes2013" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Crêpe Study Break</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-crepes2013" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-crepes2013" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="1"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="2"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="3"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="4"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="5"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="6"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="7"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="8"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="9"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="10"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="11"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="12"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="13"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="14"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="15"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="16"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="17"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="18"></li>
+                        <li data-target="#carousel-cheese2013" data-slide-to="19"></li>
+                        <li data-target="#carousel-crepes2013" data-slide-to="20"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/crepes2013/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/10.jpg" alt="" />
+                        </div>
+                           <div class="item">
+                            <img src="img/gallery/crepes2013/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/13.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/14.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/15.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/16.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/17.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/18.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/19.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/crepes2013/20.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-crepes2013" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-crepes2013" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Game Night Modal !-->
+<div class="modal fade" id="consulgeneral2014" tabindex="-1" role="dialog" aria-labelledby="consulgeneral2014" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Game Night with the Consul General</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-consulgeneral2014" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="1"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="2"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="3"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="4"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="5"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="6"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="7"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="8"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="9"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="10"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="11"></li>
+                        <li data-target="#carousel-consulgeneral2014" data-slide-to="12"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/gallery/consulgeneral2014/1.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/2.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/3.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/4.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/5.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/6.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/7.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/8.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/9.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/10.jpg" alt="" />
+                        </div>
+                           <div class="item">
+                            <img src="img/gallery/consulgeneral2014/11.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/12.jpg" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="img/gallery/consulgeneral2014/13.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-consulgeneral2014" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-consulgeneral2014" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery & Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
