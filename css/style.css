@@ -125,7 +125,7 @@ a:focus{
 
 /*Darken header image*/
 #section-home .overlay{
-	height: 600px;
+	height: 650px;
 	background-attachment: fixed;
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
@@ -165,8 +165,9 @@ h1 #frenchHeader2 {
 
 /* About Section */
 #section-about{
-	padding: 70px 0;
+	padding: 60px 0;
 }
+
 
 p.intro{
 	font-size: 14px;
@@ -189,6 +190,10 @@ p.intro{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom:5px;
+}
+
+#section-about .section-title.center{
+	padding: 20px 0;
 }
  
 /* Upcoming Events Section */
