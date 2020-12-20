@@ -1,2 +1,2 @@
 # uchicagofrenchclub.github.io
-French Club website
+The University of Chicago French Club website
